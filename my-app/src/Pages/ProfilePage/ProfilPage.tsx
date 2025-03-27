@@ -31,7 +31,7 @@ const Body: React.FC<{}> = () => {
         setUser(data);
         console.log(data);
       } catch (error) {
-        console.error('Error fetching user data:', error);
+        console.error('Error fetching user data...', error);
       }
     };
 
